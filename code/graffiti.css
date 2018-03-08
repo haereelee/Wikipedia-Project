@@ -1,0 +1,507 @@
+
+body {
+  margin: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: #fff;
+  color: #444;
+  width: 90%;
+}
+
+h1,p {
+  margin: 0 0 1em 0;
+}
+.img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+.bar{
+	padding: 0.5em;
+	text-align: center;
+	letter-spacing: 2px;
+	width: 3px;
+	border-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+body{
+	background-image: url("../img/joanna-kosinska.jpg");
+	background-size: 140%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/* home page boxes and links*/
+
+a:link{
+	color: rgba(82, 190, 174, 1.0);
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+a:visited{
+	color: rgba(82, 190, 174, 1.0);
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+a:hover{
+	color: white;
+	font-size: 20px;
+}
+
+
+.homepage{
+	background-image: url(../img/joey-huang.jpg);
+	background-size: cover;
+}
+
+.graffitiheader{
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 0.7em;
+    font-size: 3em;
+    padding: 0.7em;
+    text-align: right;
+    color: rgba(254, 68, 49, 1.0);
+    text-shadow: 2px 2px white;
+
+}
+
+@media (max-width: 500px){
+	.graffitiheader{
+		font-size: 1.4em; 
+	}
+
+	.homepage{
+		margin-top: 1em;
+		margin-bottom: 1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.box{
+		font-size: 18px;
+	}
+
+	.graffiti{
+		padding: auto;
+		margin: auto;
+	}
+
+}
+
+@media(min-width: 960px){
+	.graffiti{
+		padding: 6em;
+		margin: 1em;
+	}
+
+	.graffitiheader{
+		display: block;
+		padding: 0em;
+		margin: 0em;
+		text-align: center;
+	}
+}
+
+@media (max-width: 940px){
+	.graffitiheader{
+		font-size: 1.4em;
+		text-align: center;
+	}
+}
+
+@media (max-width: 640px){
+	.graffitiheader{
+		font-size: 1.3em;
+	}
+}
+
+@media(max-width: 570px){
+	.graffitiheader{
+		font-size: 1.3em;
+	}
+
+	.graffiti{
+		margin: 2em;
+	}
+
+	.box{
+		font-size: 12px;
+		letter-spacing: 1px;
+	}
+}
+
+.graffiti{
+	margin: 2em;
+	background-image: url(../img/joanna-kosinska.jpg);
+	background-size: cover;
+}
+
+.box{
+	padding: 1em 1em 1em 1em;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bolder;
+	font-family: 'Titillium Web', sans-serif;
+	text-shadow: 1px 1px rgba(255,255,255, 1.0);
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+/*end of home page grid*/
+
+/*page links start here, text of wikipedia page*/
+
+h1{
+	color: rgba(254, 220, 215, 1.0);
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+h2{
+	color: rgba(196, 198, 217, 1.0);
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.uses_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1200px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	background-color: rgba(10, 36, 68, 0.6);
+}
+
+.contemporary_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;	
+	background-color: rgba(10, 36, 68, 0.6);
+}
+
+.text{
+	padding-left: 6em;
+	padding-right: 6em;
+	padding bottom: 3em;
+}
+
+.characteristics_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	background-color: rgba(10, 36, 68, 0.6);
+}
+
+@media (min-width: 550px){
+	.characteristics_page{
+		padding: 0em;
+	}
+}
+
+
+.global_page{
+	font-family: 'Titillium Web', sans-serif;
+	width: 90%;
+	margin-top: 2em;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	background-color: rgba(10, 36, 68, 0.6);
+
+}
+
+.globalheader{
+    font-family: 'Press Start 2P', cursive;
+	font-size: 2.3em;
+	text-align: right;
+	letter-spacing: 1em;
+	line-height: 1em;
+	padding: 1em;
+    color: rgba(60, 186, 153, 1.0);
+	/*text-shadow: 2px 2px rgba(255, 255, 255, 1.0);*/
+}
+
+.globalbox{
+	color: white;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mapbox{
+    font-family: 'Orbitron', sans-serif;
+	padding: 1em;
+	margin: 1em;
+}
+
+.img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.map{
+	background-image: url(../img/earth-map.jpg);
+	background-size: cover;
+	padding-bottom: 5em;
+}
+.northamerica{
+	text-align: center;
+	border-radius: 20px;
+}
+
+.europe{
+	text-align: center;
+	border-radius: 20px;
+}
+
+.asia{
+	text-align: center;
+	border-radius: 20px;
+}
+
+.southamerica{
+	text-align: center;
+	border-radius: 20px;
+}
+
+.middleeast{
+	/*grid-column: 4/5;*/
+	text-align: center;
+	border-radius: 20px;
+	vertical-align: center;
+}
+
+.australianz{
+	/*grid-column: 6/7;*/
+	text-align: center;
+	border-radius: 20px;
+}
+
+@media (max-width: 485px){
+	.globalbox{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.globalheader{
+		font-size: 1.5em;
+		text-align: left;
+	}
+	.global_page{
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		margin-right: 0.7em;
+		margin-left: -1.6em;
+	}
+}
+
+@media (min-width: 1030px){
+	.map{
+		padding: 8em;
+	}
+}
+
+/*links from global page*/
+.globalbar a{
+	font-family: 'Titillium Web', sans-serif;
+	color: rgb(83, 160,175);
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 5px;
+	text-decoration-style: none;
+}
+
+.globalbar a:hover{
+	color: white;
+
+}
+
+.globalbar ul{
+	list-style: none;
+}
+
+.globalbar li{
+	display:inline;
+}
+.northamerica_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	size: 20px;
+	background: rgba(4, 11, 48, 0.6);
+	text-align: left;
+}
+
+.europe_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	size: 20px;
+	background: rgba(4, 11, 48, 0.6);
+	text-align: left;
+}
+
+.asia_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	size: 20px;
+	background: rgba(4, 11, 48, 0.6);
+	text-align: left;
+}
+
+.middleeast_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1200px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	size: 20px;
+	background: rgba(4, 11, 48, 0.6);
+	text-align: left;
+}
+
+.southamerica_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	size: 20px;
+	background: rgba(4, 11, 48, 0.6);
+	text-align: left;
+}
+
+
+.australianz_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	size: 20px;
+	background: rgba(4, 11, 48, 0.6);
+	text-align: left;
+}
+
+/*-----------------GLOBAL PAGE END------------------------*/
+
+.streetart_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	size: 20px;
+	background-color: rgba(10, 36, 68, 0.6);
+}
+
+.history_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1200px;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	background-color: rgba(10, 36, 68, 0.6);
+}
+
+.poetry{
+	border: none;
+	margin: 5px;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 1em;
+	font-family: 'Titillium Web', sans-serif;
+}
